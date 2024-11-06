@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { addProduct, getProducts, deleteEmployee, updateProduct } = require("../Controllers/db");
+const { addProduct, getProducts, deleteEmployee, updateProduct } = require("../controllers/db");
 
 router.post("/addProduct", addProduct);
 router.get("/getProducts", getProducts);

@@ -46,7 +46,7 @@ const signUp = async (req, res) => {
       const user = userCredential.user;
       console.log(`User signed in: ${user.uid}`);
   
-      const isAdmin = email === "sharespaceM@gmail.com" && password === "Admin@480";
+      const isAdmin = email === "sharespace@gmail.com" && password === "Admin@480";
   
       return res.status(200).json({
         message: "Sign in successful",
